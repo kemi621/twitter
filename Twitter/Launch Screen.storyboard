@@ -16,12 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Twitter_Logo_Blue" translatesAutoresizingMaskIntoConstraints="NO" id="VBU-EQ-HSD">
-                                <rect key="frame" x="125" y="270" width="125" height="126"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Twitter_Logo_Blue" translatesAutoresizingMaskIntoConstraints="NO" id="VBU-EQ-HSD">
+                                <rect key="frame" x="-12.5" y="133.5" width="400" height="400"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VBU-EQ-HSD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="SoE-9x-LNd"/>
+                            <constraint firstItem="VBU-EQ-HSD" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gqW-Kt-YYz"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
                 </viewController>
